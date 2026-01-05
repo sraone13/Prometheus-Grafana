@@ -50,7 +50,7 @@ http://prometheus-server-ext:9090
 (or NodeIP + NodePort)
 6. Click Save & Test
 
-5. Import Kubernetes Dashboard in Grafana
+### 5. Import Kubernetes Dashboard in Grafana
 Steps
 
 Go to Dashboards → Import
@@ -76,3 +76,12 @@ Pods
 CPU & Memory usage
 
 Cluster health
+
+
+### Grafana dashboard names with their import codes for Kubernetes monitoring:
+
+Kubernetes Cluster Monitoring        – 1860
+Kubernetes Pods                      – 315
+Kubernetes Nodes                     – 11074
+Kubernetes / Compute Resources / Pod – 15757
+Kubernetes / Compute Resources / Node– 8588
