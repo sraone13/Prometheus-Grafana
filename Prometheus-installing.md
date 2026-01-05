@@ -1,7 +1,7 @@
 # Prometheus Installation on Kubernetes (Using Helm)
 
 ### Step 1: Setup Kubernetes Cluster
-Ensure Kubernetes cluster is up and running.
+Ensure Kubernetes cluster is up and running. and install helm
 
 ### Step 2: Add Prometheus Helm Repository
 ```
