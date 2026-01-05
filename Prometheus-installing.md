@@ -78,3 +78,31 @@ http://<NodeIP>:<NodePort>
 Use PromQL queries to view metrics.
 
 Metrics are time-series based (not logs).
+
+
+### Simple PromQL queries
+
+🔹 All pods
+```
+kube_pod_info
+```
+🔹 Pods by namespace
+```
+kube_pod_info{namespace="default"}
+```
+🔹 Only non-running pods
+```
+kube_pod_status_phase{phase!="Running"} == 1
+```
+
+**7️⃣ List Pods with CPU & Memory (PromQL)**
+```
+sum by (pod, namespace) (
+  container_cpu_usage_seconds_total
+)
+```
+```
+sum by (pod, namespace) (
+  container_memory_working_set_bytes
+)
+```
