@@ -95,7 +95,7 @@ kube_pod_info{namespace="default"}
 kube_pod_status_phase{phase!="Running"} == 1
 ```
 
-**7️⃣ List Pods with CPU & Memory (PromQL)**
+**List Pods with CPU & Memory (PromQL)**
 ```
 sum by (pod, namespace) (
   container_cpu_usage_seconds_total
