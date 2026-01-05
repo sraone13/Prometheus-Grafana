@@ -81,7 +81,11 @@ Cluster health
 ### Grafana dashboard names with their import codes for Kubernetes monitoring:
 
 Kubernetes Cluster Monitoring        – 1860
+
 Kubernetes Pods                      – 315
+
 Kubernetes Nodes                     – 11074
+
 Kubernetes / Compute Resources / Pod – 15757
+
 Kubernetes / Compute Resources / Node– 8588
